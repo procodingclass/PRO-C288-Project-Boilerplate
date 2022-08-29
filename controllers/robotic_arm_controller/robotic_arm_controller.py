@@ -14,6 +14,5 @@ kb.enable(timestep)
 # - perform simulation steps until Webots is stopping the controller
 while robot.step(timestep) != -1:
     key_pressed = kb.getKey()   
-    print(key_pressed) 
 
     # write code to move the joints with keyboard
